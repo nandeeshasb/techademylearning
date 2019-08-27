@@ -1,0 +1,25 @@
+{
+	"name": "techademylearning",
+	"version": "1.0.0",
+	"description": "UX to UI using PUG, SASS, Bootstrap and JavaScript",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "techademy",
+	"license": "MIT",
+	"dependencies": {
+		"bootstrap": "^4.3.1",
+		"glyphicons-only-bootstrap": "^1.0.1",
+		"bootstrap-datepicker": "^1.9.0",
+		"bootstrap-tagsinput": "^0.7.1",
+		"jquery": "^3.4.1"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.26.7",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-pug": "^4.0.1",
+		"gulp-sass": "^4.0.2"
+	}
+}
