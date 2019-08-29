@@ -1,0 +1,14 @@
+block variables
+doctype HTML
+html(lang="en")
+	head
+		title Techademy Branding:: Powered by IIHT (Indian Institute of Hardware Technology) - #{title}
+		link(href="css/plugin-bundle.css", rel="stylesheet")
+		link(href="css/application.css", rel="stylesheet")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+	body
+		include header
+		block content
+		include footer
+		script(type="text/javascript", src="js/plugin-bundle.js")
+		script(type="text/javascript", src="js/application.js")
