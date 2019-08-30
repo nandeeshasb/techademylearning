@@ -1,1 +1,14 @@
-application.scss
+a {
+	color: #000;
+	&:hover {
+		color: #CCC;
+	}
+}
+a, a:hover, a:focus, a:visited {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+@import "modules/footer";

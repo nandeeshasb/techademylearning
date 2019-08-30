@@ -1,0 +1,25 @@
+footer {
+	font-size: 14px;
+	.footer-end {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+
+
+@media screen and (max-width: 768px){
+	.admin-footer-right {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		li {
+			padding-left: 10px;
+		}
+		.support::after {
+			content: "|";
+			padding-left: 10px;
+		}
+	}
+}
