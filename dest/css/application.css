@@ -27,3 +27,16 @@ footer {
     .admin-footer-right .support::after {
       content: "|";
       padding-left: 10px; } }
+
+header .container-fluid {
+  display: none; }
+
+@media screen and (min-width: 768px) {
+  header .container-fluid, header ul {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #3a3a3a; }
+    header .container-fluid li, header ul li {
+      padding: 0 10px; } }
